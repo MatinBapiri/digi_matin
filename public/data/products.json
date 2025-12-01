@@ -1,0 +1,411 @@
+[
+  {
+    "id": 1,
+    "category": "mobile-phone",
+    "title": "گوشی موبایل اپل مدل iPhone 16 CH دو سیم کارت ظرفیت 128 گیگابایت و رم 8 گیگابایت",
+    "slug": "گوشی-موبایل-اپل-مدل-iphone-16-ch-دو-سیم-کارت-ظرفیت-128-گیگابایت-و-رم-8-گیگابایت",
+    "brand": "Apple",
+    "colors": ["black", "white"],
+    "fastShipping": true,
+    "inStock": true,
+    "rating": 4.7,
+    "price": 101000000,
+    "image": "/images/iphone16/main.jpg",
+
+    "gallery": [
+      "/images/iphone16/main.jpg",
+      "/images/iphone16/side.jpg",
+      "/images/iphone16/back.jpg"
+    ],
+    "description": "آیفون ۱۶ جدیدترین نسل از گوشی‌های اپل است که با تراشه A18 و نمایشگر Super Retina XDR عرضه می‌شود.",
+    "specifications": {
+      "سیستم عامل": "iOS 18",
+      "نمایشگر": "6.1 اینچ OLED",
+      "دوربین اصلی": "48 مگاپیکسل",
+      "حافظه داخلی": "128 گیگابایت",
+      "رم": "8 گیگابایت",
+      "پردازنده": "Apple A18 Bionic"
+    },
+    "seller": {
+      "name": "دیجی استور پلاس",
+      "rating": "95%",
+      "warranty": "۱۸ ماهه پارس ارتباط",
+      "price": 101000000,
+      "available": true
+    },
+    "reviews": [
+      {
+        "user": "کاربر ناشناس",
+        "rating": 5,
+        "comment": "بی‌نظیر! سرعت عالی و دوربین فوق‌العاده."
+      },
+      {
+        "user": "علیرضا",
+        "rating": 4,
+        "comment": "همه چیز عالیه، فقط قیمت بالاست."
+      }
+    ]
+  },
+  {
+    "id": 2,
+    "category": "mobile-phone",
+    "title": "گوشی موبایل سامسونگ مدل Galaxy S23 Ultra دو سیم کارت ظرفیت 256 گیگابایت و رم 12 گیگابایت",
+    "slug": "گوشی-موبایل-سامسونگ-مدل-galaxy-s23-ultra-دو-سیم-کارت-ظرفیت-256-گیگابایت-و-رم-12-گیگابایت",
+    "brand": "Samsung",
+    "colors": ["black", "green", "cream"],
+    "fastShipping": true,
+    "inStock": true,
+    "rating": 4.8,
+    "price": 100000000,
+    "image": "/s23.png",
+
+    "gallery": [
+      "/images/s23/main.jpg",
+      "/images/s23/main.jpg",
+      "/images/s23/main.jpg",
+      "/images/s23/back.jpg",
+      "/images/s23/back.jpg",
+      "/images/s23/zoom.jpg"
+    ],
+    "description": "Galaxy S23 Ultra با سنسور ۲۰۰ مگاپیکسلی و قلم S Pen تجربه‌ای حرفه‌ای ارائه می‌دهد.",
+    "specifications": {
+      "سیستم عامل": "Android 14",
+      "نمایشگر": "6.8 اینچ Dynamic AMOLED 2X",
+      "دوربین اصلی": "200 مگاپیکسل",
+      "حافظه داخلی": "256 گیگابایت",
+      "رم": "12 گیگابایت",
+      "پردازنده": "Snapdragon 8 Gen 2"
+    },
+    "seller": {
+      "name": "اسمارت تکنولوژی قشم",
+      "rating": "97%",
+      "warranty": "۱۸ ماهه داریا همراه",
+      "price": 100000000,
+      "available": true
+    },
+    "reviews": [
+      {
+        "user": "محمد",
+        "rating": 5,
+        "comment": "بهترین گوشی اندرویدی حال حاضر!"
+      }
+    ]
+  },
+  {
+    "id": 3,
+    "category": "laptop",
+    "title": "لپ تاپ اپل مدل MacBook Pro 14 M3 ظرفیت 1 ترابایت و رم 16 گیگابایت",
+    "slug": "لپ-تاپ-اپل-مدل-macbook-pro-14-m3-ظرفیت-1-ترابایت-و-رم-16-گیگابایت",
+    "brand": "Apple",
+    "colors": ["gray", "silver"],
+    "fastShipping": true,
+    "inStock": true,
+    "rating": 4.9,
+    "price": 95000,
+    "image": "/images/macbook14/main.jpg",
+
+    "gallery": [
+      "/images/macbook14/main.jpg",
+      "/images/macbook14/side.jpg",
+      "/images/macbook14/top.jpg"
+    ],
+    "description": "مک‌بوک پرو ۱۴ با تراشه M3 Pro، قدرت بی‌نظیر و مصرف انرژی بهینه را برای کاربران حرفه‌ای فراهم می‌کند.",
+    "specifications": {
+      "نمایشگر": "14.2 اینچ Liquid Retina XDR",
+      "پردازنده": "Apple M3 Pro",
+      "رم": "16 گیگابایت",
+      "حافظه داخلی": "1 ترابایت SSD",
+      "گرافیک": "Integrated GPU 16-core"
+    },
+    "seller": {
+      "name": "اپل استور ایران",
+      "rating": "99%",
+      "warranty": "۲۴ ماهه الماس رایان ایرانیان",
+      "price": 95000,
+      "available": true
+    },
+    "reviews": [
+      {
+        "user": "سارا",
+        "rating": 5,
+        "comment": "طراحی، قدرت و کیفیت ساخت عالیه!"
+      }
+    ]
+  },
+  
+  {
+    "id": 4,
+    "category": "mobile-phone",
+    "title": "گوشی موبایل شیائومی مدل Redmi Note 14 Pro دو سیم کارت ظرفیت 256 گیگابایت و رم 12 گیگابایت",
+    "slug": "گوشی-موبایل-شیائومی-مدل-redmi-note-14-pro-دو-سیم-کارت-ظرفیت-256-گیگابایت-و-رم-12-گیگابایت",
+    "brand": "Xiaomi",
+    "colors": ["blue", "black", "gold"],
+    "fastShipping": true,
+    "inStock": true,
+    "rating": 4.5,
+    "price": 32000,
+    "image": "/images/redmi14/main.jpg",
+
+    "gallery": [
+      "/images/redmi14/main.jpg",
+      "/images/redmi14/side.jpg",
+      "/images/redmi14/back.jpg"
+    ],
+    "description": "Redmi Note 14 Pro با نمایشگر AMOLED و نرخ نوسازی ۱۲۰ هرتز یکی از بهترین گزینه‌های میان‌رده است.",
+    "specifications": {
+      "سیستم عامل": "Android 14",
+      "نمایشگر": "6.7 اینچ AMOLED 120Hz",
+      "دوربین اصلی": "200 مگاپیکسل",
+      "حافظه داخلی": "256 گیگابایت",
+      "رم": "12 گیگابایت",
+      "پردازنده": "Snapdragon 7s Gen 2"
+    },
+    "seller": {
+      "name": "شیائومی استور ایران",
+      "rating": "93%",
+      "warranty": "۱۸ ماهه همراه سرویس",
+      "price": 32000,
+      "available": true
+    },
+    "reviews": [
+      {
+        "user": "رضا",
+        "rating": 4,
+        "comment": "در این رنج قیمت عالیه، فقط باتری زود خالی میشه."
+      },
+      {
+        "user": "نگین",
+        "rating": 5,
+        "comment": "نمایشگرش واقعاً زیبا و پرنور هست."
+      }
+    ]
+  },
+  {
+    "id": 5,
+    "category": "laptop",
+    "title": "لپ تاپ ایسوس مدل ZenBook 14 ظرفیت 512 گیگابایت و رم 16 گیگابایت",
+    "slug": "لپ-تاپ-ایسوس-مدل-zenbook-14-ظرفیت-512-گیگابایت-و-رم-16-گیگابایت",
+    "brand": "Asus",
+    "colors": ["gray", "blue"],
+    "fastShipping": true,
+    "inStock": true,
+    "rating": 4.6,
+    "price": 72000,
+    "image": "/images/zenbook14/main.jpg",
+
+    "gallery": [
+      "/images/zenbook14/main.jpg",
+      "/images/zenbook14/keyboard.jpg",
+      "/images/zenbook14/side.jpg"
+    ],
+    "description": "ZenBook 14 ترکیبی از طراحی سبک و عملکرد بالا است که برای کارهای روزمره و حرفه‌ای مناسب می‌باشد.",
+    "specifications": {
+      "نمایشگر": "14 اینچ Full HD IPS",
+      "پردازنده": "Intel Core i7 13th Gen",
+      "رم": "16 گیگابایت",
+      "حافظه داخلی": "512 گیگابایت SSD",
+      "گرافیک": "Intel Iris Xe"
+    },
+    "seller": {
+      "name": "ایسوس ایران",
+      "rating": "96%",
+      "warranty": "۲۴ ماهه آواژنگ",
+      "price": 72000,
+      "available": true
+    },
+    "reviews": [
+      {
+        "user": "پارسا",
+        "rating": 5,
+        "comment": "سبک، شیک و باتری قوی. راضی‌ام."
+      }
+    ]
+  },
+  {
+    "id": 6,
+    "category": "mobile-phone",
+    "title": "گوشی موبایل گوگل مدل Pixel 8 دو سیم کارت ظرفیت 128 گیگابایت و رم 8 گیگابایت",
+    "slug": "گوشی-موبایل-گوگل-مدل-pixel-8-دو-سیم-کارت-ظرفیت-128-گیگابایت-و-رم-8-گیگابایت",
+    "brand": "Google",
+    "colors": ["black", "peach", "gray"],
+    "fastShipping": false,
+    "inStock": true,
+    "rating": 4.7,
+    "price": 47000,
+    "image": "/images/pixel8/main.jpg",
+
+    "gallery": [
+      "/images/pixel8/main.jpg",
+      "/images/pixel8/back.jpg",
+      "/images/pixel8/ai.jpg"
+    ],
+    "description": "Pixel 8 با پردازنده Google Tensor G3 و ویژگی‌های هوش مصنوعی اختصاصی، تجربه‌ای روان و هوشمند ارائه می‌دهد.",
+    "specifications": {
+      "سیستم عامل": "Android 14",
+      "نمایشگر": "6.2 اینچ OLED 120Hz",
+      "دوربین اصلی": "50 مگاپیکسل",
+      "رم": "8 گیگابایت",
+      "حافظه داخلی": "128 گیگابایت",
+      "پردازنده": "Google Tensor G3"
+    },
+    "seller": {
+      "name": "گوگل استور خاورمیانه",
+      "rating": "94%",
+      "warranty": "۱۲ ماهه رایان سرویس",
+      "price": 47000,
+      "available": true
+    },
+    "reviews": [
+      {
+        "user": "مریم",
+        "rating": 5,
+        "comment": "هوش مصنوعی دوربین واقعاً خیره‌کننده است!"
+      },
+      {
+        "user": "آرش",
+        "rating": 4,
+        "comment": "شارژدهی متوسط ولی نرم‌افزار بی‌نظیر."
+      }
+    ]
+  },
+  {
+    "id": 7,
+    "category": "laptop",
+    "title": "لپ تاپ اپل مدل MacBook Air M3 ظرفیت 512 گیگابایت و رم 8 گیگابایت",
+    "slug": "لپ-تاپ-اپل-مدل-macbook-air-m3-ظرفیت-512-گیگابایت-و-رم-8-گیگابایت",
+    "brand": "Apple",
+    "colors": ["silver", "gray", "gold"],
+    "fastShipping": true,
+    "inStock": true,
+    "rating": 4.9,
+    "price": 95000,
+    "image": "/images/macbookairm3/main.jpg",
+
+    "gallery": [
+      "/images/macbookairm3/main.jpg",
+      "/images/macbookairm3/side.jpg",
+      "/images/macbookairm3/open.jpg"
+    ],
+    "description": "MacBook Air M3 یکی از سبک‌ترین لپ‌تاپ‌های اپل با پردازنده‌ی نسل جدید و عملکرد عالی در کارهای روزمره و حرفه‌ای است.",
+    "specifications": {
+      "نمایشگر": "13.6 اینچ Retina",
+      "پردازنده": "Apple M3",
+      "رم": "8 گیگابایت",
+      "حافظه داخلی": "512 گیگابایت SSD",
+      "گرافیک": "یکپارچه Apple GPU",
+      "سیستم عامل": "macOS Sonoma"
+    },
+    "seller": {
+      "name": "اپل استور ایران",
+      "rating": "98%",
+      "warranty": "۱۸ ماهه مدیاپردازش",
+      "price": 95000,
+      "available": true
+    },
+    "reviews": [
+      {
+        "user": "بهاره",
+        "rating": 5,
+        "comment": "سبک، سریع و بی‌صدا. برای طراحی عالیه."
+      },
+      {
+        "user": "حسین",
+        "rating": 4,
+        "comment": "فقط کاش پورت USB-A داشت!"
+      }
+    ]
+  },
+  {
+    "id": 8,
+    "category": "smartwatch",
+    "title": "ساعت هوشمند سامسونگ مدل Galaxy Watch 6 Classic 47mm",
+    "slug": "ساعت-هوشمند-سامسونگ-مدل-galaxy-watch-6-classic-47mm",
+    "brand": "Samsung",
+    "colors": ["black", "silver"],
+    "fastShipping": true,
+    "inStock": true,
+    "rating": 4.8,
+    "price": 18500,
+    "image": "/images/galaxywatch6/main.jpg",
+
+    "gallery": [
+      "/images/galaxywatch6/main.jpg",
+      "/images/galaxywatch6/side.jpg",
+      "/images/galaxywatch6/strap.jpg"
+    ],
+    "description": "Galaxy Watch 6 Classic با طراحی کلاسیک و قابلیت اندازه‌گیری سلامت و خواب، یک همراه هوشمند کامل است.",
+    "specifications": {
+      "نمایشگر": "1.5 اینچ Super AMOLED",
+      "سیستم عامل": "Wear OS 4",
+      "حافظه داخلی": "16 گیگابایت",
+      "باتری": "425 میلی‌آمپر ساعت",
+      "اتصالات": "Bluetooth, Wi-Fi, NFC"
+    },
+    "seller": {
+      "name": "سامسونگ استور ایران",
+      "rating": "95%",
+      "warranty": "۱۸ ماهه هماهنگ",
+      "price": 18500,
+      "available": true
+    },
+    "reviews": [
+      {
+        "user": "نیما",
+        "rating": 5,
+        "comment": "بدنه فلزی و بند باکیفیت. سنسورهای دقیق داره."
+      },
+      {
+        "user": "شایان",
+        "rating": 4,
+        "comment": "شارژدهی می‌تونست بهتر باشه، اما امکانات عالیه."
+      }
+    ]
+  },
+  {
+    "id": 9,
+    "category": "tablet",
+    "title": "تبلت لنوو مدل Tab P12 با ظرفیت 256 گیگابایت و رم 8 گیگابایت",
+    "slug": "تبلت-لنوو-مدل-tab-p12-با-ظرفیت-256-گیگابایت-و-رم-8-گیگابایت",
+    "brand": "Lenovo",
+    "colors": ["gray", "blue"],
+    "fastShipping": false,
+    "inStock": true,
+    "rating": 4.3,
+    "price": 24500,
+    "image": "/images/lenovotabp12/main.jpg",
+
+    "gallery": [
+      "/images/lenovotabp12/main.jpg",
+      "/images/lenovotabp12/back.jpg",
+      "/images/lenovotabp12/stylus.jpg"
+    ],
+    "description": "Lenovo Tab P12 با نمایشگر بزرگ و پشتیبانی از قلم، گزینه‌ای مناسب برای مطالعه و تماشای فیلم است.",
+    "specifications": {
+      "نمایشگر": "12.7 اینچ IPS LCD",
+      "سیستم عامل": "Android 13",
+      "پردازنده": "MediaTek Dimensity 7050",
+      "رم": "8 گیگابایت",
+      "حافظه داخلی": "256 گیگابایت",
+      "باتری": "10200 میلی‌آمپر ساعت"
+    },
+    "seller": {
+      "name": "لنوو استور مرکزی",
+      "rating": "91%",
+      "warranty": "۱۲ ماهه سازگار",
+      "price": 24500,
+      "available": true
+    },
+    "reviews": [
+      {
+        "user": "مهران",
+        "rating": 4,
+        "comment": "صفحه بزرگ و شارژدهی عالی داره."
+      },
+      {
+        "user": "نازنین",
+        "rating": 5,
+        "comment": "برای فیلم دیدن و مطالعه خیلی خوبه."
+      }
+    ]
+  }
+]

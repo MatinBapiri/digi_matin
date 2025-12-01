@@ -1,15 +1,14 @@
 @import "tailwindcss";
-
 :root {
   --background: #ffffff;
   --foreground: #171717;
 }
 
 @theme inline {
-  --color-background: var(--background);
-  --color-foreground: var(--foreground);
+   --color-background: var(--background); 
+   --color-foreground: var(--foreground);
   --font-sans: var(--font-geist-sans);
-  --font-mono: var(--font-geist-mono);
+  --font-mono: var(--font-geist-mono); 
 }
 
 @media (prefers-color-scheme: dark) {
@@ -19,8 +18,65 @@
   }
 }
 
+@font-face {
+  font-family: "BYekan";
+  src: url("/fonts/BYekan++.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "BYekan";
+  src: url("/fonts/BYekan+ Bold.ttf") format("truetype");
+  font-weight: bold;
+  font-style: normal;
+}
+@font-face {
+  font-family: "IRANYekan";
+  src: url("/fonts/IRANYekanWeb.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+}
 body {
-  background: var(--background);
-  color: var(--foreground);
-  font-family: Arial, Helvetica, sans-serif;
+  font-family: "IRANYekan", sans-serif;
+}
+.scrollbar-hide::-webkit-scrollbar {
+  display: none; /* برای Chrome, Safari */
+}
+.scrollbar-hide {
+  -ms-overflow-style: none; /* برای IE و Edge */
+  scrollbar-width: none; /* برای Firefox */
+}
+/* سفارشی‌سازی اسکرول بار */
+::-webkit-scrollbar {
+  width: 8px; /* عرض اسکرول بار */
+}
+
+::-webkit-scrollbar-track {
+  background: oklab(91.583% 0 -0.0001); /* رنگ پس‌زمینه اسکرول بار */
+}
+
+::-webkit-scrollbar-thumb {
+  background: #9ca3af; /* رنگ کشویی (gray-400 از Tailwind) */
+  border-radius: 0px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: #a6adba; /* رنگ کشویی هنگام هاور (gray-500) */
+}
+.my-scroll {
+  direction: ltr;
+  
+}
+@keyframes shimmer {
+  0% {
+    transform: translateX(-100%);
+  }
+  100% {
+    transform: translateX(100%);
+  }
+}
+
+.animate-shimmer {
+  animation: shimmer 1.5s infinite;
 }
