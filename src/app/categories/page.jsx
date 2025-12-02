@@ -55,17 +55,19 @@ export default function Categories() {
   // ---------------------------------------------------
   //   اول: لودینگ را نشان بده
   // ---------------------------------------------------
-  if (!categories.length || !openCategory || isMobile === null) {
-    return (
-      <div className="flex justify-center items-center h-screen">
-        <div className="flex justify-center items-center space-x-1 h-20">
-          <span className="w-2 h-2 bg-gray-400 rounded-full animate-fade" style={{ animationDelay: "0.4s" }}></span>
-          <span className="w-2 h-2 bg-gray-400 rounded-full animate-fade" style={{ animationDelay: "0.2s" }}></span>
-          <span className="w-2 h-2 bg-gray-400 rounded-full animate-fade"></span>
-        </div>
+if (!categories.length || !openCategory || isMobile === null) {
+  return (
+    <div className="flex justify-center items-center h-screen bg-white">
+      <div className="flex justify-center items-center space-x-2 h-20">
+        <span className="w-2 h-2 bg-blue-500 rounded-full animate-ping" style={{ animationDelay: "400ms", animationDuration: "1s" }}></span>
+        <span className="w-2 h-2 bg-blue-500 rounded-full animate-ping" style={{ animationDelay: "200ms", animationDuration: "1s" }}></span>
+        <span className="w-2 h-2 bg-blue-500 rounded-full animate-ping" style={{ animationDelay: "0ms", animationDuration: "1s" }}></span>
       </div>
-    );
-  }
+    </div>
+  );
+}
+
+
 
   // ---------------------------------------------------
   //   دوم: اگر موبایل نیست، UI را نمایش نده
@@ -106,7 +108,7 @@ export default function Categories() {
         </div>
 
         {/* ستون چپ */}
-        <div className="flex-1 border-l border-gray-200 bg-gray-50">
+        <div className="flex-1 border-l border-gray-200">
           <Link href={`/search/category-${openCategory.slug}`}>
             <div className="px-6 text-[#008eb2] py-2 bg-white flex items-center gap-2">
               <p className="text-xs cursor-pointer">

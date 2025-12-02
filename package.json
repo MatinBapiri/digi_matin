@@ -16,10 +16,12 @@
     "iran-city": "^1.2.2",
     "lucide-react": "^0.548.0",
     "next": "16.0.0",
+    "notyf": "^3.10.0",
     "rc-slider": "^11.1.9",
     "react": "19.2.0",
     "react-dom": "19.2.0",
     "react-icons": "^5.5.0",
+    "react-toastify": "^11.0.5",
     "swiper": "^12.0.3"
   },
   "devDependencies": {

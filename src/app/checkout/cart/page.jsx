@@ -68,18 +68,18 @@ export default function CartPage() {
 
     if (loading)
         return (
-            <div className="flex justify-center items-center h-screen">
-                <div className="flex justify-center items-center space-x-1 h-20">
-                    <span className="w-2 h-2 bg-gray-400 rounded-full animate-fade" style={{ animationDelay: "0.4s" }}></span>
-                    <span className="w-2 h-2 bg-gray-400 rounded-full animate-fade" style={{ animationDelay: "0.2s" }}></span>
-                    <span className="w-2 h-2 bg-gray-400 rounded-full animate-fade"></span>
+            <div className="flex justify-center items-center h-screen bg-white">
+                <div className="flex justify-center items-center space-x-2 h-20">
+                    <span className="w-2 h-2 bg-blue-500 rounded-full animate-ping" style={{ animationDelay: "400ms", animationDuration: "1s" }}></span>
+                    <span className="w-2 h-2 bg-blue-500 rounded-full animate-ping" style={{ animationDelay: "200ms", animationDuration: "1s" }}></span>
+                    <span className="w-2 h-2 bg-blue-500 rounded-full animate-ping" style={{ animationDelay: "0ms", animationDuration: "1s" }}></span>
                 </div>
             </div>
         );
 
     return (
         <div className="min-h-screen">
-            
+
             <div className="max-w-screen-xl mx-auto p-4 md:p-8 mt-0 md:mt-8">
                 {/* Tabs */}
                 <header className="mb-6">
@@ -337,9 +337,9 @@ export default function CartPage() {
 
                     )}
                 </main>
-                
-                <BottomNavigation/>
-                
+
+                <BottomNavigation />
+
             </div>
         </div>
     );
