@@ -1,3 +1,4 @@
+
 import { db } from "./firebase";
 import {
   doc,
@@ -9,7 +10,6 @@ import {
   collection,
   getDocs,
 } from "firebase/firestore";
-
 /**
  * افزودن محصول به سبد خرید کاربر
  */
@@ -41,6 +41,7 @@ export async function addToCart(userId, product, selectedColor = null) {
     }
 
     console.log("✅ محصول به سبد خرید اضافه شد:", product.title);
+
   } catch (error) {
     console.error("❌ خطا در افزودن به سبد خرید:", error.message);
   }

@@ -1,6 +1,7 @@
 import { Geist, Geist_Mono } from "next/font/google";
 import "./globals.css";
 import Providers from "./providers/providers";
+import { CartProvider } from "@/app/context/CartContext";
 import { ModalProvider } from "@/app/context/ModalProvider";
 const geistSans = Geist({
   variable: "--font-geist-sans",
@@ -30,13 +31,13 @@ export default function RootLayout({ children }) {
         <link rel="manifest" href="/manifest.json" />
         <meta name="theme-color" content="#ff0000" />
       </head>
-      <body
-        className={`${geistSans.variable} ${geistMono.variable} antialiased `}
-      >
+      <body className={`${geistSans.variable} ${geistMono.variable} antialiased`}>
         <Providers>
-          <ModalProvider>
-            {children}
-          </ModalProvider>
+          <CartProvider>
+            <ModalProvider>
+              {children}
+            </ModalProvider>
+          </CartProvider>
         </Providers>
       </body>
     </html>

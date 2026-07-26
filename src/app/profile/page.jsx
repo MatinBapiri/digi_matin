@@ -83,7 +83,7 @@ export default function AccountMenu() {
       <div className="">
         <button
           onClick={() => setOpen(true)}
-          className="flex items-center justify-between px-4 py-4 border-b border-gray-200 cursor-pointer hover:bg-gray-50 w-full"
+          className="flex items-center justify-between px-4 py-4 border-b border-black/10 cursor-pointer hover:bg-gray-50 w-full"
         >
           <div className="flex items-center gap-3">
             <LogOut size={20} className="text-gray-800" />

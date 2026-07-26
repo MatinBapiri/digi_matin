@@ -15,7 +15,7 @@
     "framer-motion": "^12.23.24",
     "iran-city": "^1.2.2",
     "lucide-react": "^0.548.0",
-    "next": "16.0.0",
+    "next": "^16.2.12",
     "notyf": "^3.10.0",
     "rc-slider": "^11.1.9",
     "react": "19.2.0",
